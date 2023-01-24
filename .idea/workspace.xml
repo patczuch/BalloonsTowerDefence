@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4f0b3f6-fe24-4ba5-94c5-45b6a2dbe1cc" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KKTHKQ3t3RYJ7eyyavHSMQkx2g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Users\Patryk\Documents\BalloonsTowerDefence\src\main\java\balloons\gui" />
+      <recent name="E:\Users\Patryk\Documents\BalloonsTowerDefence\src\main\java\balloons" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tower_defence.objects.balloons" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tower_defence.Main" />
+      <module name="balloons.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tower_defence.objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4f0b3f6-fe24-4ba5-94c5-45b6a2dbe1cc" name="Changes" comment="" />
+      <created>1673722186976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673722186976</updated>
+      <workItem from="1673722189133" duration="1485000" />
+      <workItem from="1673820180761" duration="5269000" />
+      <workItem from="1673865967614" duration="945000" />
+      <workItem from="1673992156438" duration="8088000" />
+      <workItem from="1674056476212" duration="1546000" />
+      <workItem from="1674151462289" duration="4009000" />
+      <workItem from="1674165719858" duration="2174000" />
+      <workItem from="1674232290805" duration="11412000" />
+      <workItem from="1674251307663" duration="9516000" />
+      <workItem from="1674298140647" duration="3882000" />
+      <workItem from="1674306181211" duration="1764000" />
+      <workItem from="1674318266944" duration="8882000" />
+      <workItem from="1674343389412" duration="330000" />
+      <workItem from="1674423928593" duration="6732000" />
+      <workItem from="1674470053677" duration="470000" />
+      <workItem from="1674509226411" duration="5682000" />
+      <workItem from="1674561921480" duration="1346000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
