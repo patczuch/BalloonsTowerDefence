@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4f0b3f6-fe24-4ba5-94c5-45b6a2dbe1cc" name="Changes" comment="" />
+    <list default="true" id="f4f0b3f6-fe24-4ba5-94c5-45b6a2dbe1cc" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tower_defence/objects/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tower_defence/objects/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tower_defence/objects/Nails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tower_defence/objects/Nails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tower_defence/objects/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tower_defence/objects/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/nails.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,10 +106,24 @@
       <workItem from="1674470053677" duration="470000" />
       <workItem from="1674509226411" duration="5682000" />
       <workItem from="1674561921480" duration="1346000" />
+      <workItem from="1674566836630" duration="820000" />
+      <workItem from="1674588616371" duration="1200000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1674566973067</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674566973067</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

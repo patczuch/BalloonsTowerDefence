@@ -143,17 +143,28 @@ public class Shop {
         renderer.addEntity(coinImageLandmine);
         renderer.addText(new Text(String.valueOf(new Landmine(imageDictionary, new ArrayList<>(), level).getPrice()),new Vector2d(700, 287), Color.DARKGOLDENROD,15,"Verdana"));
 
-        ShopItem nailsImage = new ShopItem(imageDictionary,"nails.png", renderer, new Vector2d(600,320));
+        ShopItem nailsImage = new ShopItem(imageDictionary,"nails_5.png", renderer, new Vector2d(600,320));
         renderer.addEntity(nailsImage);
         entitiesToUpdate.add(nailsImage);
         nailsImage.zIndex = 2;
+        nailsImage.onUnclick = (e) -> {
+            ClickableEntity preview = new ClickableEntity(imageDictionary, "nails_5.png", renderer);
+            preview.setSize(new Vector2d(60,60));
+            entitiesToUpdate.add(preview);
+            renderer.setEntityToTrackCursor(preview);
+            preview.onClick = (e2) -> {
+                renderer.setEntityToTrackCursor(null);
+                entitiesToUpdate.remove(preview);
+                level.tryPlaceNails(renderer.getMousePosition());
+            };
+        };
 
         Entity coinImageNails = new Entity(imageDictionary,"coin.png");
         coinImageNails.position = new Vector2d(665,330);
         coinImageNails.setSize(new Vector2d(30,30));
         coinImageNails.zIndex = 2;
         renderer.addEntity(coinImageNails);
-        renderer.addText(new Text("30",new Vector2d(700, 352), Color.DARKGOLDENROD,15,"Verdana"));
+        renderer.addText(new Text(String.valueOf(new Nails(imageDictionary, new ArrayList<>(), level).getPrice()),new Vector2d(700, 352), Color.DARKGOLDENROD,15,"Verdana"));
 
         renderer.addText(new Text ("Twoje monety",new Vector2d(640, 390), Color.DARKGOLDENROD,15,"Verdana"));
         Entity coinImage = new Entity(imageDictionary,"coin.png");

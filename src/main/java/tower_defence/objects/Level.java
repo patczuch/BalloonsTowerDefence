@@ -12,6 +12,7 @@ public class Level {
     private ArrayList<Tower> towers = new ArrayList<>();
     private ArrayList<Landmine> landmines = new ArrayList<>();
     private ArrayList<Explosion> explosions = new ArrayList<>();
+    private ArrayList<Nails> nails = new ArrayList<>();
     private Vector2d[] enemyPath;
     private int wave = 0;
     public final WavesConfig wavesConfig;
@@ -120,6 +121,8 @@ public class Level {
             t.update(frameDelta);
         for (int i = 0; i<landmines.size(); i++)
             landmines.get(i).update(frameDelta);
+        for (int i = 0; i<nails.size(); i++)
+            nails.get(i).update(frameDelta);
         for (int i = 0; i<explosions.size(); i++) {
             explosions.get(i).update(frameDelta);
             if (explosions.get(i).dead)
@@ -190,11 +193,42 @@ public class Level {
         }
     }
 
+    public void tryPlaceNails(Vector2d pos)
+    {
+        if (shop.coins < new Landmine(imageDictionary, new ArrayList<>(), this).getPrice())
+            return;
+        int tileX = (int) (pos.x / ((double) tileSize * renderer.getRenderScale().x));
+        int tileY = (int) (pos.y / ((double) tileSize * renderer.getRenderScale().y));
+        if (tileY < textures.length && tileX < textures[tileY].length && textures[tileY][tileX].equals("dirt.png"))
+        {
+            for (Landmine m : landmines)
+                if (m.position.equals(new Vector2d(tileX * tileSize,tileY * tileSize)))
+                    return;
+            Nails n = new Nails(imageDictionary, balloons, this);
+            shop.coins -= n.getPrice();
+            n.position = new Vector2d(tileX * tileSize,tileY * tileSize);
+            n.setSize(new Vector2d(tileSize,tileSize));
+            nails.add(n);
+            renderer.addEntity(n);
+        }
+    }
+
     public void hitBalloon(Cannonball ball, Balloon balloon)
     {
         balloon.explode();
         renderer.removeEntity(balloon);
         renderer.removeEntity(ball);
+        balloons.remove(balloon);
+        shop.coins += 1;
+    }
+
+    public void activateNails(Nails nails, Balloon balloon)
+    {
+        if (nails.nailsLeft <= 0) {
+            renderer.removeEntity(nails);
+            this.nails.remove(nails);
+        }
+        renderer.removeEntity(balloon);
         balloons.remove(balloon);
         shop.coins += 1;
     }
