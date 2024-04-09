@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4f0b3f6-fe24-4ba5-94c5-45b6a2dbe1cc" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/scr1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/scr2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/scr3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gtignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gtignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tower_defence/objects/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tower_defence/objects/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tower_defence/objects/Nails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tower_defence/objects/Nails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tower_defence/objects/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tower_defence/objects/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/nails.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -34,6 +37,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2KKTHKQ3t3RYJ7eyyavHSMQkx2g" />
   <component name="ProjectViewState">
@@ -108,6 +114,7 @@
       <workItem from="1674561921480" duration="1346000" />
       <workItem from="1674566836630" duration="820000" />
       <workItem from="1674588616371" duration="1200000" />
+      <workItem from="1712680239959" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1674566973067</created>
